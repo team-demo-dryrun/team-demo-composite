@@ -1,5 +1,8 @@
 name: 'Dockerize'
 
+on:
+  workflow_dispatch:
+
 inputs:
   registry:
     required: true
